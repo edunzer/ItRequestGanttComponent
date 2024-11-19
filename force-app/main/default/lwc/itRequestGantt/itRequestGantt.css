@@ -1,0 +1,42 @@
+.lwc-chart_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.lwc-timeline {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8dde6;
+}
+
+.lwc-timeline_day {
+    text-align: center;
+    font-size: 0.8rem;
+    border-right: 1px solid #d8dde6;
+}
+
+.lwc-row {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.lwc-row-title {
+    width: 15%;
+    text-align: left;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.lwc-row-bars {
+    width: 85%;
+    position: relative;
+    height: 2rem;
+}
+
+.lwc-bar {
+    position: absolute;
+    height: 100%;
+    background-color: #1589ee;
+    border-radius: 0.25rem;
+}
